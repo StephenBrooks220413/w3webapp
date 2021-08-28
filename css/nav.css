@@ -1,0 +1,18 @@
+.navbar {
+	position: -webkit-sticky; /* Safari */
+  	position: sticky;
+  	top: 0;
+}
+
+#navbar2 {
+	display: none;
+}
+
+@media(max-width: 750px){
+	#navbar2 {
+		display:  block;
+	}
+	#navbar1 {
+		display:  none;
+	}
+}

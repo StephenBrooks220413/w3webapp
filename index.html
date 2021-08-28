@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" type="text/css" href="./css/nav.css">
+<link rel="stylesheet" type="text/css" href="./css/content.css">
+<link rel="stylesheet" type="text/css" href="./css/footer.css">
+<meta charset="utf-8">
+<title></title>
+</head>
+<body>
+
+<!-- navbar -->
+<nav class="navbar">
+	<div id="navbar1" class="w3-bar w3-border w3-card-4 w3-light-grey">
+	  <a href="#" class="w3-bar-item w3-button">Home</a>
+	  <a href="#" class="w3-bar-item w3-button">About</a>
+	  <a href="#" class="w3-bar-item w3-button">Contact</a>
+	</div>
+	<!-- other navbar -->
+	<div id="navbar2" class="w3-bar w3-border w3-card-4 w3-light-grey">
+		<div class="w3-dropdown-hover">
+		  <button class="w3-button"><i class="fas fa-bars"></i></button>
+		  <div class="w3-dropdown-content w3-bar-block w3-border">
+		    <a href="#" class="w3-bar-item w3-button">Home</a>
+		    <a href="#" class="w3-bar-item w3-button">About</a>
+		    <a href="#" class="w3-bar-item w3-button">Contact</a>
+		  </div>
+		</div>
+	</div>
+</nav>
+
+<!--head/intro content-->
+<div class="angled-intro">
+	<div class="w3-container">
+		<h1 class="w3-text-white display-4">Jane Doe</h1>
+		<div class="w3-row">
+			<div class="w3-col m8 l6">
+				<img 
+					src="https://images.unsplash.com/photo-1508780709619-79562169bc64?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" 
+					style="width: 90%; max-height: 350px;"
+					class="w3-animate-left"
+					alt="computer" />
+			</div>
+			<div class="w3-col w3-text-light-blue m4 l6">
+				<p class="text w3-animate-right">
+					I am a blogger and web designer. I design websites for 
+					clients that I meet through social media. The blogs I 
+					write about are anything in life.
+				</p>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!--second content-->
+<div class="w3-container space center">
+	<div class="w3-row">
+		<div class="w3-col m3 l3">
+			<i class="fas icon fa-pencil-alt"></i> 
+			<br />
+			<p class="text">
+				I wrote over 30 published blogs.
+			</p>
+		</div>
+		<div class="w3-col m3 l3">
+			<i class="fas icon fa-code"></i>
+			<br />
+			<p class="text">
+				Built over 300 Web Applications.
+			</p>
+		</div>
+		<div class="w3-col m3 l3">
+			<i class="fas icon fa-award"></i>
+			<br />
+			<p class="text">
+				Won 4 awards from reviews.
+			</p>
+		</div>
+		<div class="w3-col m3 l3">
+			<i class="far icon fa-clock"></i>
+			<br />
+			<p class="text">
+				Fast turn around on builds.
+			</p>
+		</div>
+	</div>
+</div>
+
+<!--slide show-->
+<div class="w3-container space">
+	<h1 class="display-4 center">My Previous Work</h1>
+	<div class="w3-content w3-display-container">
+		<img class="mySlides" src="https://images.unsplash.com/photo-1600132806608-231446b2e7af?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1267&q=80" style="width:100%; max-height: 450px;">
+		<img class="mySlides" src="https://images.unsplash.com/photo-1487014679447-9f8336841d58?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1166&q=80" style="width:100%; max-height: 450px;">
+		<img class="mySlides" src="https://images.unsplash.com/photo-1513031300226-c8fb12de9ade?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80" style="width:100%; max-height: 450px;">
+		<img class="mySlides" src="https://images.unsplash.com/photo-1527799820374-dcf8d9d4a388?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80" style="width:100%; max-height: 450px;">
+
+		<button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+		<button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+	</div>
+</div>
+
+<!--contact-->
+<br/>
+<div class="angled-form">
+	<div class="w3-container center">
+		<h1 class="w3-text-blue display-4">Subscribe</h1>
+		<form class="w3-container" style="max-width: 750px; margin-left: auto; margin-right: auto;">
+
+		<label class="w3-text-blue"><b>First & Last Name</b></label>
+		<input class="w3-input w3-border" type="text">
+		
+		<label class="w3-text-blue"><b>Your EMail</b></label>
+		<input class="w3-input w3-border" type="email">
+		<br />
+		<button class="w3-btn w3-blue">Register</button>
+		
+		</form>
+	</div>
+</div>
+
+<div class="w3-container center space">
+	<div class="w3-row" style="padding: 11px;">
+		<h1>What I used for this app</h1>
+		<hr />
+		<div class="w3-col text w3-text-green md3 l3">
+			<a href="https://fontawesome.com/" target="_blank">Font Awesome</a>
+			<a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3Css & JS</a>
+			<a href="https://unsplash.com/" target="_blank">Free Images</a>
+		</div>
+	</div>
+</div>
+
+<!--footer-->
+<footer>
+	<div class="w3-container center">
+		<div class="w3-row">
+			<div class="w3-col">
+				Copy Right 2021, CareerKarma Students
+			</div>
+		</div>
+	</div>
+</footer>
+
+<!--added js-->
+<script src="./js/index.js"></script>
+<!-- w3scripts -->
+<script src="https://www.w3schools.com/lib/w3.js"></script>
+<!-- font awesome -->
+<script src="https://kit.fontawesome.com/cce4d0df7e.js" crossorigin="anonymous"></script>
+</body>
+</html>
