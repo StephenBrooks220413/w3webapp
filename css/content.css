@@ -1,23 +1,117 @@
 body {
     background-color: #F4F4F4;
+    font-family: Roboto, sans-serif;
 }
 
-.display-4 {
-    font-size: 3.2em;
+.display-title {
+    font-size: 8em;
+    font-family: "Tangerine", serif;
 }
 
-.intro-content {
+.display {
+    font-size: 4em;
+}
+
+.intro-bg {
+    background: url(https://images.unsplash.com/photo-1513364776144-60967b0f800f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1051&q=80) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    padding-top: 200px;
+    padding-bottom: 200px;
     text-align: center;
-    margin-top: 70px;
+}
+
+@media(max-width:700px){
+    .intro-bg {
+        background: url(https://images.unsplash.com/photo-1513364776144-60967b0f800f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1051&q=80) no-repeat center center fixed; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        width: 100%;
+        height: auto;
+        padding-top: 180px;
+        padding-bottom: 180px;
+        text-align: center;
+    }
+    .display-title {
+        font-size: 7em;
+        font-family: "Tangerine", serif;
+    }
+}
+
+@media(max-width:650px){
+    .intro-bg {
+        background: url(https://images.unsplash.com/photo-1513364776144-60967b0f800f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1051&q=80) no-repeat center center fixed; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        width: 100%;
+        height: auto;
+        padding-top: 180px;
+        padding-bottom: 180px;
+        text-align: center;
+    }
+    .display-title {
+        font-size: 6em;
+        font-family: "Tangerine", serif;
+    }
+}
+
+@media(max-width:530px){
+    .intro-bg {
+        background: url(https://images.unsplash.com/photo-1513364776144-60967b0f800f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1051&q=80) no-repeat center center fixed; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        width: 100%;
+        height: auto;
+        padding-top: 180px;
+        padding-bottom: 180px;
+        text-align: center;
+    }
+    .display-title {
+        font-size: 5em;
+        font-family: "Tangerine", serif;
+    }
+}
+
+@media(max-width:450px){
+    .intro-bg {
+        background: url(https://images.unsplash.com/photo-1513364776144-60967b0f800f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1051&q=80) no-repeat center center; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        width: 100%;
+        height: auto;
+        padding-top: 160px;
+        padding-bottom: 160px;
+        text-align: center;
+    }
+    .display-title {
+        font-size: 4em;
+        font-family: "Tangerine", serif;
+    }
 }
 
 .space {
-    margin-top: 70px;
+    margin-top: 50px;
     margin-bottom: 70px;
 }
 
+hr {
+    border: 1px solid grey;
+}
+
 .text {
-    font-size: 21px;
+    font-size: 16px;
 }
 
 .center {
@@ -29,7 +123,7 @@ body {
 }
 
 .angled-intro {
-    background-image: linear-gradient(176deg, #22313F 70%, #F4F4F4 calc(70% + 2px));
+    background-image: linear-gradient(176deg, #494242 70%, #F4F4F4 calc(70% + 2px));
     height: auto;
     width: 100%;
     padding-top: 40px;
@@ -37,7 +131,7 @@ body {
 }
 
 .angled-form {
-    background-image: linear-gradient(176deg, #000000 70%, #F4F4F4 calc(70% + 2px));
+    background-image: linear-gradient(176deg, #494242 70%, #F4F4F4 calc(70% + 2px));
     height: auto;
     width: 100%;
     padding-top: 10px;
@@ -50,3 +144,32 @@ hr {
     margin-left: auto;
     margin-right: auto;
 }
+
+.max-content {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.social-media {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 2em;
+    letter-spacing: 12px;;
+}
+
+    .social-media > .f {
+        color: rgb(184, 178, 178);
+    }
+
+    .social-media > .g {
+        color: rgb(184, 178, 178);
+    }
+
+    .social-media > .s {
+        color: rgb(184, 178, 178);
+    }
+
+    .social-media > .t {
+        color: rgb(184, 178, 178);
+    }
